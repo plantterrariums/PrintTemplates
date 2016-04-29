@@ -39,7 +39,7 @@
 {% set show_customer_credit_account = true %}       {# Displays Customer Credit Account information at the bottom of receipts #}
 
 {# Logos #}
-{% set logo_width = '225px' %}                      {# Default width is 225px. #}
+{% set logo_width = '150px' %}                      {# Default width is 225px. #}
 {% set logo_height = '' %}                          {# Default height is 55px. #}
 {% set multi_shop_logos = false %}                  {# Allows multiple logos to be added for separate locations when used with options below #}
 
@@ -70,7 +70,7 @@
 @page { margin: 0px; }
 
 body {
-	font: normal 10pt 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font: normal 9pt 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	margin: 0;
 	padding: 1px; <!-- You need this to make the printer behave -->
 	{% if chrome_right_margin_fix == true %}
@@ -87,12 +87,12 @@ body {
 }
 
 .receipt {
-	font: normal 10pt “Helvetica Neue”, Helvetica, Arial, sans-serif;
+	font: normal 9pt “Helvetica Neue”, Helvetica, Arial, sans-serif;
 }
 
 h1 {
 	margin: .5em 0 0;
-	font-size: 12pt;
+	font-size: 9pt;
 	text-align: center;
 }
 
@@ -103,14 +103,14 @@ p.date, p.copy {
 }
 
 p.details {
-	font-size: 10pt;
+	font-size: 9pt;
 	text-align: left;
 }
 
 h2 {
 	border-bottom: 1px solid black;
 	text-transform: uppercase;
-	font-size: 10pt;
+	font-size: 9pt;
 	margin: .5em 0 0;
 }
 
@@ -119,7 +119,7 @@ h2 {
 }
 
 .header h3 {
-	font-size: 12pt;
+	font-size: 9pt;
 	margin: 0;
 }
 
